@@ -2,8 +2,8 @@ import { AwesomeCordovaNativePlugin } from '@awesome-cordova-plugins/core';
 import { Observable } from 'rxjs';
 export declare enum CallState {
     OutgoingInit = "OutgoingInit",
-    OutgoingRinging = "OutgoingRinging",
     OutgoingProgress = "OutgoingProgress",
+    OutgoingRinging = "OutgoingRinging",
     Connected = "Connected",
     Resuming = "Resuming",
     Ended = "Ended",

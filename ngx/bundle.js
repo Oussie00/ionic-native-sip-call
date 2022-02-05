@@ -10,11 +10,16 @@ require('rxjs');
 /* Call status */
 exports.CallState = void 0;
 (function (CallState) {
+    /* Call is being initialized */
     CallState["OutgoingInit"] = "OutgoingInit";
-    CallState["OutgoingRinging"] = "OutgoingRinging";
+    /* Call is in progress (comes in between init and ringing) */
     CallState["OutgoingProgress"] = "OutgoingProgress";
+    /* Call is ringing */
+    CallState["OutgoingRinging"] = "OutgoingRinging";
+    /* Call active (connected) */
     CallState["Connected"] = "Connected";
     CallState["Resuming"] = "Resuming";
+    /* Call has ended (connected) */
     CallState["Ended"] = "Ended";
     CallState["Error"] = "Error";
 })(exports.CallState || (exports.CallState = {}));
