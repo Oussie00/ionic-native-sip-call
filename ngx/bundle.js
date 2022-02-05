@@ -20,7 +20,7 @@ exports.CallState = void 0;
     CallState["Connected"] = "Connected";
     CallState["Resuming"] = "Resuming";
     /* Call has ended (connected) */
-    CallState["Ended"] = "Ended";
+    CallState["Ended"] = "End";
     CallState["Error"] = "Error";
 })(exports.CallState || (exports.CallState = {}));
 /* Registration status */

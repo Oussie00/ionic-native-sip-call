@@ -6,7 +6,7 @@ export declare enum CallState {
     OutgoingRinging = "OutgoingRinging",
     Connected = "Connected",
     Resuming = "Resuming",
-    Ended = "Ended",
+    Ended = "End",
     Error = "Error"
 }
 export declare enum RegistrationState {
